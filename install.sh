@@ -15,6 +15,6 @@ sudo apt install cmake g++ -y
 cmake CMakeLists.txt
 make
 ls
-sudo mv urldedupe /usr/local/bin/
+sudo cp urldedupe /usr/local/bin/
 cd ..
 rm -rf urldedupe
