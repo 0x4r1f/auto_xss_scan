@@ -2,7 +2,9 @@
 
 # Function to display help information
 show_help() {
-    echo "Usage: bash $0 <domain_or_domain_list_file>"
+    echo "Usage: bash bash auto_xss_scan.sh <domain_or_domain_list_file>"
+    echo
+    echo "Ex: bash auto_xss_scan.sh starrinsurance.com.sg"
     echo
     echo "Scan domains for XSS vulnerabilities using the Wayback Machine, urldedupe, qsreplace, and airixss."
     echo
